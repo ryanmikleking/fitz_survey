@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitzgibbon Desk Phone Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-banner">
+            <h1>Fitzgibbon Surveys</h1>
+            <img src="images/FH Logo (high res) PNG.png" alt="" >
+        </div>
+    </nav>
+    <form action="/submit" method="post">
+        <input type="text" placeholder="first name" name="fname" required>
+        <input type="text" placeholder="last name" name="lname" required>
+        <input type="text" placeholder="department" name="dept" required>
+        <ul>
+            <div class="question-1">                
+                <li>
+                    <label for="">Would you prefer a deskphone?</label>
+                    <input type="checkbox" name="c1" id="">
+                </li>
+            </div>
+            <div class="question-2">
+                <li>
+                    <label for="">Would you use the phone app for RingCentral?</label>
+                    <input type="checkbox" name="c2" id="">
+                </li>
+            </div>     
+            <div class="question-3">
+                <li>
+                    <label for="">Would you use the phone app exclusively?</label>
+                    <input type="checkbox" name="c3" id="">
+                </li>
+            </div>
+        </ul>
+        <input type="submit" value="Submit Survey">
+    </form>
+    
+</body>
+</html>

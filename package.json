@@ -1,0 +1,29 @@
+{
+  "name": "fitzsurvey",
+  "version": "1.0.0",
+  "description": "This is a web app built with the purpose to allow a small sample of users within in Fitzgibbon Hospital to take a two question survey",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Fitzgibbon",
+    "Hospital",
+    "survey",
+    "node",
+    "javascript",
+    "web",
+    "app"
+  ],
+  "author": "Ryan M. King",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.10.1",
+    "nodemon": "^3.1.3"
+  }
+}
